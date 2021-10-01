@@ -1,0 +1,11 @@
+framework module WKWebViewRTC {
+  umbrella header "WKWebViewRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WKWebViewRTC.Swift {
+    header "WKWebViewRTC-Swift.h"
+    requires objc
+}
